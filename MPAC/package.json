@@ -1,0 +1,14 @@
+{
+  "name": "mpac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe ./tests/steps/ --c ./.testcaferc.js --skip-js-errors --live"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^2.6.0"
+  }
+}
